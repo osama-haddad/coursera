@@ -1,0 +1,70 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61b22f;
+  font-family: "Comic Sans MS", cursive, sans-serif
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #a6b3a9;
+  border-radius: 0;
+  border: 0;
+  border-bottom: 1px solid black;
+}
+.navbar-brand {
+  margin-top: -30px;
+  height: 90px;
+}
+.navbar-brand a h1 {
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 2.2em;
+  margin-top: 22px;
+  text-shadow: 1px 0 1px #222;
+  color: #0000FF;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+  color: #0000FF;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #6162ff;
+}
+.navbar-header button.navbar-toggle {
+margin-right: 20px;
+}
+#nav-list {
+  padding-top: 5px;
+}
+#nav-list a {
+  color: #483D8B;
+  font-size: 1.3em;
+  font-weight: 300;
+}
+#nav-list a:hover {
+  background: #688;
+}
+/* End Header */
+
+/* Home Page */
+h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 2em;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+  color: #008;
+}
+#long-text {
+  background-color: #61c22f;
+}
+#long-text > h3 {
+  color: #4B0082;
+  margin-bottom: 20px;
+  font-size: 1.8em;
+  font-family: Georgia, serif;
+}
+#long-text p {
+  color: #000;
+}
+/* End Home Page */
